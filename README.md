@@ -1,12 +1,11 @@
 # Personal site
 
-A minimal personal homepage (home, blog, projects, experiences) in plain HTML and CSS. There is no build step, so it runs on GitHub Pages as-is.
+A minimal personal homepage (home, projects, experiences) in plain HTML and CSS. There is no build step, so it runs on GitHub Pages as-is.
 
 ## Make it yours
 - **index.html**: your name, intro, the "Currently / Previously / Tinkering" chips, and social links
 - **assets/main.js**: the `SITE` block at the top sets the logo initials, nav links, and header icon links
 - **projects.html** and **experiences.html**: copy an `<li>` block for each entry
-- **blog/**: copy `hello-world.html` to write a post, then link it from `blog/index.html`
 - Replace "Your Name" everywhere: `grep -rl "Your Name" .`
 
 Company logos in the chips come from `https://www.google.com/s2/favicons?domain=<site>`. Change the `domain=` part to match each company.

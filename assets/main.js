@@ -2,7 +2,6 @@
 const SITE = {
   logo: "RK",
   nav: [
-    { label: "Blog", href: "blog/" },
     { label: "Projects", href: "projects.html" },
     { label: "Experiences", href: "experiences.html" },
   ],
