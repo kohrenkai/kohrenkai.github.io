@@ -133,6 +133,10 @@ p { margin: 0 0 20px; }
 .list .meta { color: var(--muted); font-size: 13px; white-space: nowrap; }
 .list .desc { margin: 4px 0 0; font-size: 14px; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.shots { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 12px 0 2px; }
+.shots figure { margin: 0; }
+.shots img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); }
+.shots figcaption { margin-top: 4px; font-size: 11px; color: var(--muted); text-align: center; line-height: 1.4; }
 .tags span { background: var(--chip); border-radius: 4px; padding: 1px 7px; font-size: 11px; color: var(--muted); }
 
 footer { max-width: 640px; margin: 0 auto; padding: 0 24px 40px; color: var(--muted); font-size: 12px; }
@@ -141,6 +145,7 @@ footer { max-width: 640px; margin: 0 auto; padding: 0 24px 40px; color: var(--mu
   .site-nav { gap: 14px; }
   h1 { font-size: 30px; }
   .list .row { flex-direction: column; gap: 0; }
+  .shots { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 .site-header, main, footer { position: relative; z-index: 1; }
