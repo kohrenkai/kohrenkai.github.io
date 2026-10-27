@@ -14,8 +14,9 @@
     <ul class="list">
       <li>
         <div class="row"><span class="title">Fin Track: Personal Financial Tracker</span><span class="meta">Oct 2026</span></div>
-        <p class="desc">A mobile-friendly personal financial tracker that uses my own Google Sheet as its database. It reads and writes transactions through the Google Sheets API, so the sheet stays the single source of truth. Spending is grouped into category cards with budget rings. A calendar view shows daily income and expenses, and a budget tab keeps a month-by-month history. An accounts view tracks balances and investments with live USD/SGD conversion. Entries are logged from a built-in keypad, and possible duplicate transactions are flagged automatically. I built it with Claude, then repackaged it as a Google Apps Script web app so a second person could use it with their own data.</p>
-        <div class="tags"><span>JavaScript</span><span>Google Sheets API</span><span>Apps Script</span><span>Claude</span></div>
+        <p class="desc">A personal financial tracker that logs my spending automatically. I built it because expense apps that rely on manual entry never stuck. After about a month I'd stop logging, and the transactions I forgot slipped through. Now, whenever I pay by card, PayNow or PayLah!, my bank sends a payment notification. A Power Automate flow picks it up, parses the date, amount and merchant, and adds the transaction to my Google Sheet.</p>
+        <p class="desc">On top of the sheet is a mobile-friendly app that reads and writes through the Google Sheets API, so the sheet stays the single source of truth. It groups spending into category cards with budget rings, shows daily income and expenses on a calendar, keeps a month-by-month budget history, and tracks balances and investments with live USD/SGD conversion. Possible duplicate transactions are flagged automatically. I built the app with Claude, then set up the same flow and repackaged the app as a Google Apps Script web app so my girlfriend could use it with her own data.</p>
+        <div class="tags"><span>Power Automate</span><span>JavaScript</span><span>Google Sheets API</span><span>Apps Script</span><span>Claude</span></div>
       </li>
       <li>
         <div class="row"><span class="title">Second Brain: AI Assistant on Telegram</span><span class="meta">Oct 2026</span></div>
